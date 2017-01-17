@@ -44,4 +44,6 @@ Install and use by directly including the component:
 ```
 
 ## Limitations
-There is no traversal, each attribute to be saved has to be explicitely defined as such. Each entity requires to have its unique ID, if not a warning message will de displayed then nothing will be saved.
+-There is no traversal, each attribute to be saved has to be explicitely defined as such.
+-Each entity requires to have its unique ID, if not a warning message will de displayed then nothing will be saved.
+-Simple attributes like visible work but composed attributes (e.g. color or material) do not work.
