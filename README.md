@@ -3,22 +3,27 @@ Use localStorage to make data persist over experiences.
 
 Tro try the example http://vatelier.net/MyDemo/aframe-persist-component/ move the camera around then refresh. You can also move the cube around using the inspector.
 
-### API
+## Properties
 
 | Property | Description                                                          | Default Value |
 | -------- | -------------------------------------------------------------------- | ------------- |
 |debug     | console.log() when attributes are loaded, saved and with what values | true          |
 |attribute | specify which attributes of an entity should be saved                | position      |
 
-### Installation
+## Installation
 
-#### Browser
+### Browser
 
 Install and use by directly including the component:
 ```html
   <script src="https://rawgit.com/Utopiah/aframe-persist-component/master/aframe-persist-component.js"></script>
 ```
-
+## Basic usage
+```html
+  <a-scene>
+    <a-camera id="mycamera" persist></a-camera>
+  </a-scene>
+```
 ## Example
 ```html
 <head>
