@@ -1,6 +1,8 @@
 # aframe-persist-component
 Use localStorage to make data persist over experiences.
 
+Tro try the example http://vatelier.net/MyDemo/aframe-persist-component/ move the camera around then refresh. You can also move the cube around using the inspector.
+
 ### API
 
 | Property | Description                                                          | Default Value |
@@ -42,4 +44,4 @@ Install and use by directly including the component:
 ```
 
 ## Limitations
-There is no traversal, each attribute to be saved has to be explicitely defined as such .
+There is no traversal, each attribute to be saved has to be explicitely defined as such. Each entity requires to have its unique ID, if not a warning message will de displayed then nothing will be saved.
