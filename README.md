@@ -7,8 +7,8 @@ Tro try the example http://vatelier.net/MyDemo/aframe-persist-component/ move th
 
 | Property | Description                                                          | Default Value |
 | -------- | -------------------------------------------------------------------- | ------------- |
-|debug     | console.log() when attributes are loaded, saved and with what values | true          |
 |attribute | specify which attributes of an entity should be saved                | position      |
+|debug     | console.log() when attributes are loaded, saved and with what values | true          |
 
 ## Installation
 
@@ -27,9 +27,7 @@ Install and use by directly including the component:
 ## Example
 ```html
 <head>
-  <meta charset="utf-8">
   <title>local state save</title>
-  <meta name="description" content="local state save">    
   <script src="https://aframe.io/releases/0.4.0/aframe.min.js"></script>
   <script src="https://rawgit.com/Utopiah/aframe-persist-component/master/aframe-persist-component.js"></script>
 </head>
@@ -50,5 +48,5 @@ Install and use by directly including the component:
 
 ## Limitations
 - There is no traversal, each attribute to be saved has to be explicitely defined as such.
-- Each entity requires to have its unique ID, if not a warning message will de displayed then nothing will be saved.
+- Each entity *requires* to have its unique ID, if not a warning message will de displayed then nothing will be saved.
 - Simple attributes like visible work but composed attributes (e.g. color or material) do not work.
