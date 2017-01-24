@@ -3,6 +3,8 @@ Use localStorage to make data persist over experiences.
 
 Tro try the example http://vatelier.net/MyDemo/aframe-persist-component/ move the camera around then refresh. You can also move the cube around using the inspector.
 
+![preview](https://utopiah.github.io/aframe-persist-component/preview.gif)
+
 ## Properties
 
 | Property | Description                                                          | Default Value |
